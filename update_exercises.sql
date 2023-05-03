@@ -1,12 +1,12 @@
 USE codeup_test_db;
 
-SELECT 'All albums from database' AS 'Info';
+SELECT 'All albums from database' AS 'All albums';
 SELECT * FROM albums;
 
-SELECT 'All albums released before 1980' AS 'Info';
+SELECT 'All albums released before 1980' AS 'All albums released before 1980';
 SELECT * FROM albums WHERE release_date < 1980;
 
-SELECT 'All albums by Michael Jackson' AS 'Info';
+SELECT 'All albums by Michael Jackson' AS 'All Michael Jackson Albums';
 SELECT * FROM albums WHERE artist = 'Michael Jackson';
 
 UPDATE albums

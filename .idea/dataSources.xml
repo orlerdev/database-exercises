@@ -8,5 +8,13 @@
       <jdbc-url>jdbc:mysql://localhost:3306/codeup_test_db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="employees@localhost" uuid="3fe0027a-931d-4c34-a6cc-bfc0c6247e58">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/employees</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <time-zone>UTC</time-zone>
+    </data-source>
   </component>
 </project>
